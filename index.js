@@ -21,7 +21,7 @@ function Calcular()
         console.log(Error);
         var msg = document.getElementById("mensaje");
         msg.innerText = Error.message;
-        msg.style.display = "none";
+        msg.style.display = "block";
     }
 }
 
