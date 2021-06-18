@@ -66,6 +66,8 @@ function CheckInputs(estatura, peso)
 
     var errortext = "";
 
+    console.log(estatura + "\n" + peso)
+
     if(isNaN(estatura))
     {
         errortext += "* La estatura no es numerica.\n";
@@ -74,7 +76,7 @@ function CheckInputs(estatura, peso)
 
     else if(estatura == "")
     {
-        errortext += "* La estatura no puede estar vacía.\n";
+        errortext += "* La estatura ingresada no es valida.\n";
         counter++;
     }
 
@@ -99,7 +101,7 @@ function CheckInputs(estatura, peso)
 
     else if(peso == "")
     {
-        errortext += "* El peso no puede estar vacío.\n";
+        errortext += "* El peso ingresado no es valido.\n";
         counter++;
     }
 
