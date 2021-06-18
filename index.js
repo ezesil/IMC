@@ -66,8 +66,6 @@ function CheckInputs(estatura, peso)
 
     var errortext = "";
 
-    console.log(estatura + "\n" + peso)
-
     if(isNaN(estatura))
     {
         errortext += "* La estatura no es numerica.\n";

@@ -70,6 +70,13 @@ td{
     font-size: small;
 }
 
+input:invalid{
+    border-color:red;
+}
+
+input:focus{
+    border-color:white;
+}
 
 
 
