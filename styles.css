@@ -1,0 +1,74 @@
+body{
+    line-height: 1.8;
+    color: #4A4C50;
+    box-sizing: inherit;
+    background-color: #F7F7F6;
+    font-family: "freight-sans-pro", sans-serif;
+    margin: 2rem 0;
+    padding: 2rem;
+}
+
+#tablainferior{
+    line-height: 1.8;
+    color: #4A4C50;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    width: 100%;
+    box-sizing: inherit;
+    border-collapse: collapse;
+    font-family: "freight-sans-pro", sans-serif;
+    display:none;
+    border-bottom: 1px solid #dddddd;
+}
+
+tr{
+    line-height: 1.8;
+    color: #4A4C50;
+    border-collapse: collapse;
+    font-family: "freight-sans-pro", sans-serif;
+    box-sizing: inherit;
+    border-top: 1px solid #DFE1E3;
+    border-bottom: 1px solid #dddddd;
+
+}
+
+td{
+    line-height: 1.8;
+    color: #4A4C50;
+    border-collapse: collapse;
+    font-family: "freight-sans-pro", sans-serif;
+    box-sizing: inherit;
+    border: 0;
+    border-bottom: 1px solid #dddddd;
+}
+
+
+
+#botoncalcular{
+    box-sizing: inherit;
+    font: inherit;
+    margin: 0;
+    overflow: visible;
+    display: inline-block;
+    font-family: "freight-sans-pro", sans-serif;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    transition: 600ms;
+    appearance: none;
+    background-color: #007EBF;
+    border: 1px solid #007EBF;
+    border-radius: 0;
+    color: white;
+    line-height: 1.2;
+}
+
+#mensaje{
+    color: red;
+    display: "none";
+}
+
+
+
+
