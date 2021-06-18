@@ -66,7 +66,8 @@ td{
 
 #mensaje{
     color: red;
-    display: "none";
+    display:contents;
+    font-size: small;
 }
 
 

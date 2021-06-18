@@ -21,7 +21,7 @@ function Calcular()
         console.log(Error);
         var msg = document.getElementById("mensaje");
         msg.innerText = Error.message;
-        msg.style.display = "block";
+        msg.style.display = "contents";
     }
 }
 
@@ -118,7 +118,7 @@ function CheckInputs(estatura, peso)
     if(counter > 0)
     {
         if(counter == 1)
-            throw TypeError("Se han encontrado " + counter + " error: \n" + errortext);
+            throw TypeError("Se ha encontrado " + counter + " error: \n" + errortext);
 
         else if(counter > 1)
             throw TypeError("Se han encontrado " + counter + " errores: \n" + errortext);
